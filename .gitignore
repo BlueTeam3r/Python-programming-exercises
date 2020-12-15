@@ -1,3 +1,9 @@
+## test
+*.vscode
+#### End of personal entries
+
+### github/gitignore/maste/pythongitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
