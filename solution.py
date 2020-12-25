@@ -59,3 +59,39 @@ print(','.join(l))
 '''
 Question 2
 '''
+# First Attempt Success
+''' 
+import pyinputplus as pyip
+def factorial(num, mode="Default"):
+    verbose_list = []
+    result = 1
+    
+    for num in range(1, num+1):
+        verbose_list.append(str(num))
+        result *= num
+
+    verbose_str = " * ".join(verbose_list)
+
+    if mode == "Default":
+        return result
+    elif mode == "Verbose":    
+        return f"{verbose_str} = {result}"
+    else:
+        return "**INVALID MODE**"
+
+def main():
+    num = pyip.inputInt("Enter a number to calculate its factorial: ")
+    print(f"{num}! = {factorial(num)}")
+if __name__ == "__main__":
+    main()
+'''
+# Source Solution
+'''
+def fact(x):
+    if x == 0:
+        return 1
+    return x * fact(x - 1)
+
+x=int(input())
+print(fact(x))
+'''
