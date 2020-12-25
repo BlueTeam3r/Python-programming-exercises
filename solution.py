@@ -95,3 +95,33 @@ def fact(x):
 x=int(input())
 print(fact(x))
 '''
+
+# More Level 1
+
+'''
+Question 3
+'''
+# First Attempt Success
+'''
+integral = int(input())
+dictionary = {}
+for num in range(1, integral + 1):
+    dictionary[num] = num * num
+print(dictionary)
+'''
+# Source Solution
+'''
+n=int(input())
+d=dict()
+for i in range(1,n+1):
+    d[i]=i*i
+
+print(d)
+'''
+
+# More Level 1
+
+'''
+Question 4
+'''
+# First Attempt
